@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Guess the number game</title>
+   <link rel="shortcut icon" href="img/icons8-magnifier-16.png" type="image/x-icon">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <h1>Вгадай число!</h1>
+      <p class="between">(Між 1 та 20)</p>
+      <button class="btn again">Спочатку!</button>
+      <div class="question">???</div>
+    </header>
+    <main>
+      <section class="left">
+        <input type="number" class="number-input" />
+        <button class="btn check">Перевірити!</button>
+      </section>
+      <section class="right">
+        <p class="guess-message">Починай вгадувати</p>
+        <p class="label-score">Бали: <span class="score">20</span></p>
+        <p class="label-highscore">
+          Кращий результат: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
